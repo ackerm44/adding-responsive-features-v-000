@@ -59,12 +59,22 @@
 
   #details div {
     height: auto;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
   }
 
   .col-3 p {
      -moz-column-count: 1;
      -webkit-column-count: 1;
      column-count: 1;
+  }
+}
+
+@media only screen and m(max-width:700px) {
+  #navbar nav a {
+    display: none; 
+  }
+
+  #navbar nav a.menu-icon {
+    display: block; 
   }
 }
